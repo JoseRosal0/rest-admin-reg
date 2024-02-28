@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/menu"
+const url = "http://localhost:4000/menu"
 
 export const nuevoProducto = async producto => {
     try {
