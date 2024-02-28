@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "username": "eli",
+      "id": 1
+    },
+    {
+      "username": "jose",
+      "id": 2
+    },
+    {
+      "username": "lit",
+      "id": 3
+    },
+    {
+      "username": "hola",
+      "id": 4
+    }
+  ],
+  "tareas": [
+    {
+      "text": "",
+      "user": "hola",
+      "id": 1,
+      "checked": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.posicionarme en la carpeta 
+
+.iniciar node: npm init
+
+.instalar package.jason         //npm sirve como las api ejmplo pdf o email
+
+.copiar enlace de npm y descargarlo 
+
+.agregar comando 
