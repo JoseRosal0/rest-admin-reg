@@ -41,7 +41,10 @@ formC.addEventListener('submit', async e => {
             headers: {
                 'Content-type': 'application/json'
             },
-            body: JSON.stringify({ username: createInput.value })
+            body: JSON.stringify({ 
+                username: createInput.value,
+                rol:"cliente"
+             })
 
 
         })
@@ -62,7 +65,7 @@ forml.addEventListener("submit",async e=>{
     const users = await respuesta.json();
 
     const user=users.find(user=>user.username==loginInput.value);
-    
+    //console.log(user,"user en find")
     if(!user){
         notificacion.innerHTML = 'El usuario no existe '
         notificacion.classList.add('show-notification');
@@ -70,7 +73,16 @@ forml.addEventListener("submit",async e=>{
             notificacion.classList.remove('show-notification')
         }, 2000)
     }else{
+        console.log(user,"user en condi");
+        if(user.rol=="cliente"){
+            console.log("es un cliente")
+            window.location.href ="/restaurant_app/index.html";
+
+        }else if(user.rol=="admin"){
+            console.log("es adnin")
+            window.location.href ="/adminPanel/index.html";
+
+        }
         localStorage.setItem("user",JSON.stringify(user));
-        window.location.href ="/adminPanel/index.html";
     }
 })

@@ -1,20 +1,14 @@
 {
   "usuarios": [
     {
-      "username": "eli",
+      "username": "jose",
+      "rol": "admin",
       "id": 1
     },
     {
-      "username": "jose",
+      "username": "eli",
+      "rol": "cliente",
       "id": 2
-    },
-    {
-      "username": "lit",
-      "id": 3
-    },
-    {
-      "username": "hola",
-      "id": 4
     }
   ],
   "tareas": [

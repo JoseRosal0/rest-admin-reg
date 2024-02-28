@@ -57,7 +57,7 @@ function guardarCliente() {
 }
 
 function obtenerMenu() {
-    const url = "http://localhost:3000/menu";
+    const url = "http://localhost:5000/menu";
     fetch(url)
         .then(respuesta => respuesta.json())
         .then(resultado => mostraMenu(resultado))
