@@ -1,0 +1,16 @@
+mesonero tendra 
+id
+nombre
+pedidos[listado de pedidos]
+
+user puede tener un rol y en base a el se apbre restaurante o admin panel 
+
+hacer que registrar usuario 4 modulo se una a restaurante y panel 
+
+
+
+//envatoElement par ver inspiracion
+
+.dashboard
+
+charts.js //para las estadisticas y graficos
